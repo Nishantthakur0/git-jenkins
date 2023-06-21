@@ -1,1 +1,1 @@
-# git-jenkins
+In this project we gonna integrate the git and our jenkins server so that any time we commit anything in our index.html file on git it automatically run the job in our jenkins server and then it transfer our file (*html) to our ansible server though ssh in /opt/index.html directory and then our jenkins runs the ansible playbook and copy the file from the location to our webservers directory /var/www/html and then we can access the content through webserver on chrome or anyother browser
